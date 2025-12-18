@@ -1,0 +1,12 @@
+# Environment files
+backend/.env
+frontend/.env
+
+# Node modules
+node_modules/
+
+# Build output
+dist/
+build/
+
+kraken-demo.txt

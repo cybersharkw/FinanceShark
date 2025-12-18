@@ -1,0 +1,26 @@
+# FastAPI
+fastapi
+uvicorn[standard]
+python-multipart
+
+# LangChain Core
+langchain
+langchain-core
+langchain-community
+langchain-openai
+
+
+#rag-basics
+sentence-transformers
+scikit-learn
+pymilvus
+
+# Embeddings & LLMs
+openai
+
+# Utilities
+pydantic
+pydantic-settings
+python-dotenv
+pypdf
+
