@@ -76,7 +76,7 @@ export function Chat({ api }: ChatProps) {
   }
 
   return (
-    <div className="w-full max-w-lg mx-auto space-y-4">
+    <div className="w-full max-w-lg mx-auto mt-8 space-y-4">
       {/* Chat Window */}
       <section className="border h-96 p-4 overflow-y-auto rounded-lg bg-white shadow">
         {messages.map((m, i) => (
@@ -84,7 +84,7 @@ export function Chat({ api }: ChatProps) {
             key={i}
             className={`mb-2 p-2 rounded-lg ${
               m.role === "user"
-                ? "bg-blue-100 text-right"
+                ? "bg-green-100 text-right"
                 : "bg-gray-100 text-left"
             }`}
           >

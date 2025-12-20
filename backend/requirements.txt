@@ -8,13 +8,12 @@ langchain
 langchain-core
 langchain-community
 langchain-openai
+langgraph
+
 
 #rag-basics
 sentence-transformers
-scikit-learn
-pymilvus
 chromadb
-bs4
 
 # Embeddings & LLMs
 openai
@@ -23,5 +22,6 @@ openai
 pydantic
 pydantic-settings
 python-dotenv
-
+typing
+pathlib
 
